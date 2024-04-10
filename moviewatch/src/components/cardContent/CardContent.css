@@ -13,6 +13,13 @@
     padding: 8px;
     height: 350px;
 }
+
+.posterbox{
+
+    border-radius: 5%;
+    padding: 8px;
+    height: 250px;
+}
 .title{
     text-align: center;
     padding: 0px 5px 4px 5px;
@@ -35,4 +42,14 @@ color: white;
     background-color: white;
     box-shadow: 0 0 9px white;
     color: black;
+}
+
+@media screen and (max-width: 992px) {
+
+
+    .posterbox{
+    border-radius: 5%;
+    padding: 8px;
+    height: 150px;
+}
 }
