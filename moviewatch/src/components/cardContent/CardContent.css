@@ -1,0 +1,38 @@
+.media{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 5px 0;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.poster{
+    border-radius: 5%;
+    padding: 8px;
+    height: 350px;
+}
+.title{
+    text-align: center;
+    padding: 0px 5px 4px 5px;
+    color: white;
+}
+.type{
+padding: 1px 0px 0px 10px;
+color: white;
+
+}
+.date{
+    padding-left: 10px;
+    color: white;
+}
+
+.vote{
+    color: white;
+}
+.media:hover{
+    background-color: white;
+    box-shadow: 0 0 9px white;
+    color: black;
+}

@@ -1,0 +1,29 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.App{
+    min-height: 100vh;
+    background-color:  rgb(39, 37, 39, 0.9);
+    color: #fff;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    margin: 0;
+    
+}
+
+@media (max-width:700px) {
+    .App{
+        padding-top: 60px;
+    }
+}
+
+.pageTitle{
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+     
+
+}
